@@ -12,6 +12,7 @@
   "author": "Julian Tree",
   "license": "GPL-3.0",
   "dependencies": {
+    "open":"*",
     "formidable": "*",
     "stripe": "*"
   }

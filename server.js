@@ -7,6 +7,7 @@ var PORT = 8002,
     STRIPE_SECRET_KEY = '',
     STRIPE_PUBLIC_KEY = '';
 
+require('open')('http://localhost:'+PORT,'firefox')
 
 http.createServer(function(req, res) {
 
